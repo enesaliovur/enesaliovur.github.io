@@ -1,1 +1,101 @@
-Hello World!
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Aerial by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+    <style>
+      .responsive {
+        width: 100%;
+      max-width: 300px;
+      height: auto;
+      border-radius: 10px;
+}
+    </style>
+  </head>
+  <body class="is-preload">
+    <div id="wrapper">
+      <div id="bg"></div>
+      <div id="overlay"></div>
+      <div id="main">
+        <!-- Header -->
+        <header id="header">
+          <img src="assets/css/images/userprofile.jpeg" alt="image" class="responsive">
+          <h1>Enes Ali Övür</h1>
+          <p>
+            Merhaba Ben Enes Ali Övür. Kırklareli Üniversitesi Yazılım
+            Mühendisliği öğrencisiyim. Mobil Uygulama Geliştirme ve Web
+            Geliştirme konuları ile ilgileniyorum.Bana aşağıdaki bağlantılardan
+            ulaşabilirsiniz.
+          </p>
+          <nav>
+            <ul>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/enesaliovur/"
+                  target="_blank"
+                  class="icon brands fa-linkedin"
+                  ><span class="label">LinkedIn</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:enesaliovur@gmail.com"
+                  target="_blank"
+                  class="icon fa-envelope"
+                  ><span class="label">Email</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/eaodev"
+                  target="_blank"
+                  class="icon brands fa-twitter"
+                  ><span class="label">Twitter</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/enesaliovurdev/"
+                  target="_blank"
+                  class="icon brands fa-instagram"
+                  ><span class="label">Instagram</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/enesaliovur"
+                  target="_blank"
+                  class="icon brands fa-github"
+                  ><span class="label">GitHub</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <!-- Footer -->
+       
+      </div>
+    </div>
+    <script>
+      window.onload = function () {
+        document.body.classList.remove("is-preload");
+      };
+      window.ontouchmove = function () {
+        return false;
+      };
+      window.onorientationchange = function () {
+        document.body.scrollTop = 0;
+      };
+    </script>
+  </body>
+</html>
